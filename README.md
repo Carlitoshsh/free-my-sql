@@ -13,6 +13,6 @@ The `master` branch runs MySQL 8. You can use the `mysql-5` branch to run MySQL 
 
 ## Deployment
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://raw.githubusercontent.com/Carlitoshsh/free-my-sql/refs/heads/master/render.yaml)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Carlitoshsh/free-my-sql)
 
 See https://render.com/docs/deploy-mysql.
