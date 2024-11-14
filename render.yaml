@@ -7,7 +7,6 @@ services:
   disk:
     name: mysql
     mountPath: /var/lib/mysql
-    sizeMB: 512
   envVars:
   - fromGroup: mysql
 
