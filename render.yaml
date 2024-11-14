@@ -1,13 +1,13 @@
 services:
 - type: pserv
   name: mysql
-  plan: standard
+  plan: free
   env: docker
   autoDeploy: false
   disk:
     name: mysql
     mountPath: /var/lib/mysql
-    sizeGB: 10
+    sizeMB: 512
   envVars:
   - fromGroup: mysql
 
