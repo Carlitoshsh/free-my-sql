@@ -1,0 +1,111 @@
+# Archivos de compilación y salida
+/bin/
+/obj/
+/publish/
+/App_Data/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userprefs
+*.vspscc
+*.vssscc
+*.buildinfo
+*.log
+*.vsmdi
+*.testsettings
+*.shproj
+*.rptproj
+
+# Paquetes y dependencias
+/packages/
+/node_modules/
+/bower_components/
+*.nupkg
+*.vsix
+*.vsixlangpack
+
+# Configuraciones y datos locales
+.vs/
+*.sqlite
+*.mdf
+*.ldf
+*.bak
+*.config
+appsettings.Development.json
+appsettings.Local.json
+*.secret
+*.key
+*.pfx
+*.cer
+*.pem
+
+# Archivos de caché y temporales
+/._*
+*.cache
+*.tmp
+*.swp
+*.DS_Store
+*.idea/
+*.iws
+*.ipr
+
+# Documentación y otros archivos
+*.pdf
+*.docx
+*.zip
+*.rar
+*.7z
+
+# Archivos específicos de Rider (JetBrains)
+.idea/
+*.iml
+*.iws
+
+# Archivos específicos de Visual Studio Code
+.vscode/
+
+# Archivos específicos de Visual Studio
+[Oo]ut/
+[Rr]elease/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ebugPrivate/
+*.vspscc
+*_i.psess
+*_t.testsettings
+*.nuspec
+*.vsmdi
+*.testsettings
+*.shproj
+*.rptproj
+*.sln.docstates
+*.sln.opendocstates
+
+# Archivos de Docker (si usas Docker)
+docker-compose.override.yml
+.dockerenv
+
+# Archivos de Azure Functions
+local.settings.json
+
+# Archivos de Azure DevOps
+.vsosession
+
+# Archivos de cobertura de código
+*.coverage
+*.opencover.json
+*.coveragexml
+
+# Archivos de Resharper
+_ReSharper.*
+*.DotSettings.user
+
+# Archivos de NuGet
+nuget.config
+
+# Archivos de Azure Service Fabric
+/pkg/
+/obj.fabric/
+/bin.fabric/
